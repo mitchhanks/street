@@ -41,7 +41,7 @@ $input = "Mr John Smith";
 $output = NameParser::parseNames($input);
 
 print_r($output);
-
+ ```
 
 ### API
 You can use the API end point to send it a csv file by calling: 
