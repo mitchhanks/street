@@ -45,14 +45,18 @@ print_r($output);
 
 ### API
 You can use the API end point to send it a csv file by calling: 
+```
 Method: POST
 Endpoint: /api/parse-names
 Content-Type: multipart/form-data; 
 Key: file
 Value: CSV file
+```
 
 ### Tests
 
 Run tests with:
 
+```
 php artisan test
+```
